@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main-print out sizes of data
- * Return: 0
+ * main- Entry point
+ * Return- Always 0 (success)
  */
 int main(void)
 {
