@@ -5,7 +5,7 @@
  * @c: is the int value to be compared with the ASCII value
  * Return: 0 if succesful. _islower - Entry point
  */
-int _islower(int c);
+int _islower(int c)
 {
 	int c;
 
