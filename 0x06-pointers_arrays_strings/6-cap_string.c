@@ -9,11 +9,11 @@ char *cap_string(char *v)
 {
 	int i = 0;
 
-	while (str[v])
+	while (i[v])
 	{
 		while (!(v[i] >= 'a' && v[i] <= 'z'))
 			i++;
-		if (v[i - 1] == ' ' ||
+		if (v[i - 1] == '' ||
 				v[i - 1] == '\t' ||
 				 v[i - 1] == '\n' ||
 				 v[i - 1] == ',' ||
