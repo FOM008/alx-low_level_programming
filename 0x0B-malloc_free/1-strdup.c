@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	if (ptr == NULL)
 		return (NULL);
 
-	for (i = 0; str[i] != '\0'; i++;)
+	for (i = 0; str[i] != '\0'; i++)
 		ptr[i] = str[i];
 	ptr[i] = '\0';
 
